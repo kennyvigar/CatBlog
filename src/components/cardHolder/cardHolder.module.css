@@ -1,0 +1,53 @@
+/* --background-color #fcd2e8 
+--background-color-hover #fbcbe5  */
+@import url(https://fonts.googleapis.com/css?family=Rubik+Puddles);
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.container {
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 500px 500px 500px 500px 500px;
+  display: grid;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.kittehcards {
+  border-radius: 25px;
+  background-color: #fcd2e8;
+  /* background: var(--background-color); */
+  transition: background-color 100ms linear;
+}
+.kittehcardOfTheDay {
+  font-family: "Rubik Puddles", serif;
+  border-radius: 25px;
+  background-color: #f89ecd;
+  /* background: var(--background-color); */
+  transition: background-color 100ms linear;
+}
+.kittehcards:hover {
+  border-radius: 25px;
+  background-color: #fbcbe5;
+  /* background: var (--background-color-hover); */
+  box-shadow: 1px 2px 10px grey;
+  transition: background-color 100ms linear;
+}
+
+img {
+  border-radius: 35px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.nameKOTD {
+  font-family: "Rubik Puddles", serif;
+}

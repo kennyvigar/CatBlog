@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Grape+Nuts);
+@import url(https://fonts.googleapis.com/css?family=Rubik+Puddles);
+
+.preHeader {
+  font-family: "Grape Nuts", serif;
+  font-size: 30px;
+}
+
+.header {
+  font-family: "Rubik Puddles", serif;
+  font-size: 105px;
+  color: purple;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* TODO: duplicate .center classes.. one also in cardHolder.module.css - intentionally left because this is going to
+a different style anyway, but is set for the time being. */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
