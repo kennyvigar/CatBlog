@@ -12,6 +12,7 @@ TODO
 
 To run
 - clone project
+- `npm i`
 - `npm start`
 
 To add Cats
