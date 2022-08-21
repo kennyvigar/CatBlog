@@ -25,8 +25,7 @@ const GetCatOfTheDay = () => {
   return (
     <div className={styles.kittehcards}>
       <h2 className={styles.notes}>{cat.fact}</h2>
-      <button onClick={getCat}>Click for more Cat Facts!</button>
-
+      <button className={styles.button}onClick={getCat}>Click for more Cat Facts!</button>
     </div>
   );
 };

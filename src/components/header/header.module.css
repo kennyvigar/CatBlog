@@ -9,12 +9,19 @@
 .header {
   font-family: "Rubik Puddles", serif;
   font-size: 105px;
-  color: purple;
+  color:black;
+}
+
+.intro {
+  color: black;
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
 }
+
+
 
 /* TODO: duplicate .center classes.. one also in cardHolder.module.css - intentionally left because this is going to
 a different style anyway, but is set for the time being. */
