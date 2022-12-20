@@ -1,0 +1,13 @@
+/* .nameForm {
+
+} */
+
+.button {
+    border-radius: 15px;
+    background-color: #d2f8fc;
+    width: 60px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}

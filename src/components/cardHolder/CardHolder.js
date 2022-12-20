@@ -19,8 +19,9 @@ export default (props) => (
   <div>
     <div className={styles.container}>
       <CatOfTheDay />
-
-      {cats.map(createCatCard)}
+      <div className={styles.containersContainer}>
+        {cats.map(createCatCard)}
+      </div>
     </div>
   </div>
 );

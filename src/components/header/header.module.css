@@ -1,19 +1,34 @@
 @import url(https://fonts.googleapis.com/css?family=Grape+Nuts);
 @import url(https://fonts.googleapis.com/css?family=Rubik+Puddles);
 
+
+/* h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
+.removeMargin {
+  margin: 0;
+  padding: 0;
+}
+
 .preHeader {
   font-family: "Grape Nuts", serif;
   font-size: 30px;
+
 }
 
 .header {
   font-family: "Rubik Puddles", serif;
   font-size: 105px;
-  color:black;
+  color: black;
+  border-bottom-width:thin;
+
 }
 
 .intro {
   color: black;
+
 }
 
 ul {
@@ -26,7 +41,7 @@ ul {
 /* TODO: duplicate .center classes.. one also in cardHolder.module.css - intentionally left because this is going to
 a different style anyway, but is set for the time being. */
 .center {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   display: grid;
 }

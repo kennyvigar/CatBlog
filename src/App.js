@@ -6,6 +6,7 @@ import CardHolder from "./components/cardHolder/CardHolder";
 
 export default () => (
   <div className="App">
+    
     <Header />
     <Intro />
     <CardHolder />

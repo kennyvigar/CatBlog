@@ -2,6 +2,8 @@ import React from "react";
 //import styles from "../cardHolder/cardHolder.module.css";
 
 import styles from "../header/header.module.css";
+import NameForm from "../test/NameForm"
+
 export default (props) => (
   <div className={styles.center}>
     <div className={styles.intro}>
@@ -13,7 +15,9 @@ export default (props) => (
         <li>cats</li>
         <li>bacon</li>
         <li>space</li>
-      </ul>
+      </ul>      
+      
     </div>
+  {/* <NameForm /> */}
   </div>
 );
