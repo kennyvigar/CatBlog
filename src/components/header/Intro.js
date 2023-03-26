@@ -2,7 +2,6 @@ import React from "react";
 //import styles from "../cardHolder/cardHolder.module.css";
 
 import styles from "../header/header.module.css";
-import NameForm from "../test/NameForm"
 
 export default (props) => (
   <div className={styles.center}>
@@ -18,6 +17,5 @@ export default (props) => (
       </ul>      
       
     </div>
-  {/* <NameForm /> */}
   </div>
 );

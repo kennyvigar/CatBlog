@@ -12,9 +12,12 @@ export default () => (
     <CardHolder />
 
     <iframe //TODO - put this `iframe` into it's own component
+      title="defaulttitle"
       width="560" //560 x 340
       height="340"
       src="https://www.youtube.com/embed/tgbNymZ7vqY"
     ></iframe>
   </div>
 );
+
+
