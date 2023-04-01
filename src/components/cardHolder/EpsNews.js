@@ -13,8 +13,8 @@ const epsNews = () => {
             </div>
             <h2>April 1st</h2>
             <p>This is some new art I made</p>
-            {/* <img src="../../public/pictures/newsartapril01.jpeg"/>
-      <img src={process.env.PUBLIC_URL + "newsartapril01.jpeg"/>  */}
+            <p>it was made with stickers</p>
+           
             <img src={process.env.PUBLIC_URL + 'pictures/newsartapril01.jpeg'} alt="My Image" />
 </div>
 

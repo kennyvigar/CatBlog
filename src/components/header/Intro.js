@@ -14,6 +14,7 @@ export default (props) => (
         <li>cats</li>
         <li>bacon</li>
         <li>space</li>
+        <li>cereal</li>
       </ul>      
       
     </div>
