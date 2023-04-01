@@ -3,7 +3,7 @@ import styles from "../cardHolder/cardHolder.module.css";
 import CatCard from "./CatCard";
 import cats from "../../data/cats.js";
 import CatOfTheDay from "./CatOfTheDay";
-
+import GetCatOfTheDay from "./GetCatOfTheDay";
 const createCatCard = (cat) => {
   return (
     <CatCard key={cat.key} name={cat.name} img={cat.img} notes={cat.notes} />
@@ -19,6 +19,7 @@ export default (props) => (
   <div>
     <div className={styles.container}>
       <CatOfTheDay />
+      <GetCatOfTheDay/>
       <div className={styles.containersContainer}>
         {cats.map(createCatCard)}
       </div>

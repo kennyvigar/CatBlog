@@ -14,15 +14,16 @@
   grid-template-columns: 450px ;
   grid-template-rows: 400px;
   display: grid;
-  gap: 50px;
+  gap: 70px;
   justify-content: center;
+  
 }
 
 .containersContainer{
   grid-template-columns: 450px 450px 450px;
   grid-template-rows: 400px 400px 400px 400px 400px;
   display: grid;
-  gap: 50px  ;
+  gap: 70px  ;
   justify-content: center;
 }
 
@@ -31,6 +32,7 @@
   background-color: #ffb95d;
   /* background: var(--background-color); */
   transition: background-color 100ms linear;
+  height:450px;
 }
 /* .kittehcardOfTheDay {
   font-family: "Rubik Puddles", serif;
@@ -74,6 +76,26 @@ img {
 
 }
 
+.catPic{        
+  width:auto;
+  height:auto;
+  /* display: block; */
+  margin:auto;
+
+}
+
+
+.epsnews{        
+  width:80%;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  
+  
+  /* height:; */
+  /* display: block; */
+
+  background-color: white;
+}
 
 @media only screen and (max-device-width: 480px) {
 
@@ -132,13 +154,15 @@ img {
     padding: 15px 32px;
     text-align: center;
     font-size: 24px;
+    
+    
   }
   
   .notes {
     margin-bottom: 100px;
     display: grid;
     grid-template-rows: 50px 50px;
-    margin: 25px 50px 75px;
+    
   
   }
 }
