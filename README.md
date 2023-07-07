@@ -2,8 +2,7 @@
 
 Cat blog returns!
 
-<img width="1678" alt="Screen Shot 2022-08-21 at 4 33 20 PM" src="https://user-images.githubusercontent.com/23610226/185813598-c0b2c2c0-43dd-4ffd-a807-d535ddfe9b0b.png">
-
+https://evescatblog.netlify.app/
 
 
 Another project for learning REACT development.  This is a collaboration with my daughter and I.  I've been building the components, and she has been filling in the data array of her favorite cats found in our internet web searches togehter. 
