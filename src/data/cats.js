@@ -71,6 +71,12 @@ const cats = [
     img: "https://images.pexels.com/photos/11190555/pexels-photo-11190555.jpeg?auto=compress&cs=tinysrgb&w=800",
     notes: "TIME TO TRASH",
   },
+  {
+    key: 13,
+    name:'buttons',
+    img: "",
+    notes: "",
+  },
 ];
 
 export default cats;
