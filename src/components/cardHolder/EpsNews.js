@@ -23,7 +23,7 @@ const epsNews = () => {
 
             </div>
 
-            <div className={styles.blogBrick1}>
+            <div className={styles.blogBrick2}>
                 <h2>January 24 </h2>
                 <p>happy new year</p>
                 <p>something new, i am going to add is</p>
