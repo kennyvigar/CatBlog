@@ -97,6 +97,19 @@ img {
   background-color: white;
 }
 
+.blogBrick1{
+  border: 3px solid pink;
+  padding: 50px;
+}
+
+.blogBrick2{
+  border: 3px solid rgb(202, 12, 161);
+  padding: 50px;
+  margin-left: 200;
+  margin-right: 200;
+  width:auto;
+}
+
 @media only screen and (max-device-width: 480px) {
 
   .container {

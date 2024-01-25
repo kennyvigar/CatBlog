@@ -10,7 +10,7 @@ const epsNews = () => {
     return (
         <div className={styles.epsnews}>
             
-            <div>
+            <div className={styles.blogBrick1}>
                 <h2>January 24 </h2>
                 <p>happy new year</p>
                 <p>something new, i am going to add is</p>
@@ -23,7 +23,7 @@ const epsNews = () => {
 
             </div>
 
-            <div>
+            <div className={styles.blogBrick1}>
                 <h2>April 1</h2>
                 <p>This is some new art I made</p>
                 <p>it was made with stickers</p>
