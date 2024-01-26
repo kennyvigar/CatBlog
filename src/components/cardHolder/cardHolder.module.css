@@ -100,7 +100,8 @@ img {
 }
 
 .blogBrick1{
-  border: 3px solid pink;
+  border: 3px solid rgb(202, 12, 161);
+
   padding: 15px;
   margin: auto;
   margin-top:20px;
@@ -109,7 +110,8 @@ img {
 }
 
 .blogBrick2{
-  border: 3px solid rgb(202, 12, 161);
+  border: 3px solid pink;
+
   padding: 15px;
   margin: auto;
   width:50%;

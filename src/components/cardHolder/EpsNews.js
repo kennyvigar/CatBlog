@@ -10,6 +10,20 @@ const epsNews = () => {
     return (
         <div className={styles.epsnews}>
             
+            <div className={styles.blogBrick2}>
+                <h2>January 26</h2>
+                <p>I thought of a good joke </p>
+                <p></p>
+                <br></br>
+                <p>joke of the day:</p>
+                <br></br>
+                <p>what did the cinderella fish wear to the ball?</p>
+                <p>A glass fliper!!!!!!!!!</p>
+                <img src={process.env.PUBLIC_URL + 'pictures/slipper.webp'} alt="My Image" />
+
+
+            </div>
+
             <div className={styles.blogBrick1}>
                 <h2>January 25 </h2>
                 <p></p>
