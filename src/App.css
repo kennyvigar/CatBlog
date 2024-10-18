@@ -2,3 +2,19 @@
   text-align: center;
 }
 
+@media (max-width: 360px) {
+  body {
+      font-size: 14px;
+  }
+  .container {
+      padding: 10px;
+  }
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  width:auto;
+  display: block
+}
+
