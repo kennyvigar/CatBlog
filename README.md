@@ -7,12 +7,15 @@ Catblog is a Father / Daughter (she's 10!!) project to CATalog our favorite beas
 
 Journals and Jokes
 - Eve knows where to type, some of the web elements and how to copy / paste to create additional journal and joke entries.   
+<img width="1704" alt="Screen Shot 2024-10-25 at 3 22 43 PM" src="https://github.com/user-attachments/assets/4f3d4f81-83cc-4acf-b1ca-7d4aa92816dc">
 
 Cat Facts and Surfer
 - We threw buttons on the app to grab a random cat fact or joke from cat APIs via AXIOS!
+<img width="1512" alt="Screen Shot 2024-10-25 at 3 23 11 PM" src="https://github.com/user-attachments/assets/e8df5bf7-970e-49a0-9d20-b99f5d8cf666">
 
 Cat Tiles
-- She and I take turns populating the JSON array of our favorites so they can always be found! 
+- She and I take turns populating the JSON array of our favorites so they can always be found!
+<img width="1691" alt="Screen Shot 2024-10-25 at 3 23 33 PM" src="https://github.com/user-attachments/assets/868aa1d3-c4c9-489e-859a-9c1a266b982e">
 
 CI/CD
 - Github (Main) => Netlify !
