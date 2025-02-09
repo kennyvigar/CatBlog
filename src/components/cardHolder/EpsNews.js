@@ -14,7 +14,7 @@ const epsNews = () => {
 
         <div className={styles.epsnews}>
 
-<div className={styles.blogBrick2}>
+        <div className={styles.blogBrick2}>
             <h2>October 20</h2>
             <p>Look at the cat surfer pic I found on the cat blog!!</p>
             <p></p>

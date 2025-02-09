@@ -24,15 +24,16 @@ const GetCatOfTheDay = () => {
   }, []);
 
   return (
-    <div className={styles.kittehcards}>
-      <div className={styles.notes}>
-      <img className={styles.catPic} src={cat.url}></img>
+    <div>
+      <div className={styles.kittehcards}>
+        
+          <img className={styles.catPic} src={cat.url}></img><br></br>
+          <button className={styles.button}onClick={getCat}>Cat Pic</button>
+          <div className={styles.notes}>
+          <p>Check out the cat surfer!!<br></br>Click the button to surf Cats!</p>
+          </div>
+        </div>
       </div>
-      <button className={styles.button}onClick={getCat}>Cat Pic</button>
-      <p>Check out the cat surfer!!<br></br>
-      Click the button to surf Cats!</p>
-
-    </div>
   );
 };
 
